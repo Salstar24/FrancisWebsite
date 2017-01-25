@@ -1,0 +1,76 @@
+body {
+	margin: 0px;
+	font-family: "Gill Sans", Rockwell; 
+	background: lightblue;
+}
+
+.containerBox {
+    position: relative;
+    display: inline-block;
+}
+
+.text-box {
+    position: absolute;    
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.menu {
+	background: white;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+				
+	/* Experimenting with spacing of items on menu*/
+	padding: 15px;
+	border-spacing: 10px;
+	position: fixed;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 500%; /*or whatever you want*/
+	color: #ffffff;  
+	padding-top: 150px;
+}
+
+h2 {
+	color: white;
+}
+
+footer {
+	background: white;
+	text-align: center;
+}
+
+a {
+	color: black;
+}
+
+#patreon {
+	width: 30px;
+	min-width: 10px;
+}
+
+#guitar {
+	width: 30px;
+	min-width: 10px;
+}
+
+#gmap_canvas{
+	height:500px;
+	width:100%;
+}
+
+#mapouter{
+	overflow:hidden;
+	height:500px;
+	width:100%;
+}
